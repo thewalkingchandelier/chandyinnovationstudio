@@ -1,0 +1,170 @@
+* {
+    font-family: "rl-aqva", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h4 {
+    background-color: #e6188e;
+    color: #fbef4f;
+    width: 8em;
+    text-align: center;
+    padding: 1em;
+}
+a h4 {
+    color: #fbef4f;
+    
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    text-decoration-color: #fbef4f;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    text-decoration-color: #fbef4f;
+  }
+
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container {
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    width: 70px;
+    height: 70px;
+}
+.blurb-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+    padding: 3%;
+    align-items: center;
+    justify-content: center;
+}
+
+.blurb-container img {
+    width: 80%;
+    height: auto;
+}
+.hero-container img {
+    width: 80%;
+    height: auto;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-blurb {
+    width: 100%;
+    height: auto;
+    padding: 3%;
+
+}
+
+.footer-blurb h1 {
+ color: #e6188e;
+}
+
+#navbarNavDropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button {
+    background-color:#563192;
+    padding: 1%;
+    color: #fdc073;
+    
+}
+.button {
+    
+    text-align: center;
+    
+    
+}
+
+.button a {
+    text-decoration: none;
+    color: #fdc073;
+    border: none;
+}
+ul {
+    padding-top: 5%;
+}
+
+.art-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    width: 100%;
+    padding-top:3%;
+
+    
+}
+.art-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.project-info {
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #e6188e;
+    padding: 3%;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.socials a {
+    color: white;
+}
+
+ h1 {
+    text-align: center;
+    
+    padding: 3% 10% 3% 10%;
+   
+ }
+
+ @media screen and (max-width: 480px) {
+    .art-grid, .blurb-container, .project-info {
+        display: block;
+    }
+    .blurb-container img {
+        width: 100%;
+    }
+  }
+
