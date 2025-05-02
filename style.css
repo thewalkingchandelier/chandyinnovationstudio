@@ -2,6 +2,9 @@
     font-family: "rl-aqva", sans-serif;
     font-weight: 900;
     font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+   
 }
 
 h4 {
@@ -9,7 +12,7 @@ h4 {
     color: #fbef4f;
     width: 8em;
     text-align: center;
-    padding: 1em;
+    padding: 5%;
 }
 a h4 {
     color: #fbef4f;
@@ -42,11 +45,12 @@ a:link {
 
 .hero-container {
     width: 100%;
-    height: auto;
-    padding: 3%;
+    height: 100%;
+    padding: 1%;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .icon {
     width: 70px;
@@ -56,7 +60,6 @@ a:link {
     display: flex;
     width: 100%;
     height: auto;
-    
     padding: 3%;
     align-items: center;
     justify-content: center;
@@ -67,7 +70,7 @@ a:link {
     height: auto;
 }
 .hero-container img {
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -78,6 +81,10 @@ a:link {
     justify-content: center;
 }
 
+.project-info p {
+    padding: 5%;
+}
+
 .footer-blurb {
     width: 100%;
     height: auto;
@@ -85,9 +92,7 @@ a:link {
 
 }
 
-.footer-blurb h1 {
- color: #e6188e;
-}
+
 
 #navbarNavDropdown {
     display: flex;
@@ -96,12 +101,7 @@ a:link {
 }
 
 
-button {
-    background-color:#563192;
-    padding: 1%;
-    color: #fdc073;
-    
-}
+
 .button {
     
     text-align: center;
@@ -109,11 +109,7 @@ button {
     
 }
 
-.button a {
-    text-decoration: none;
-    color: #fdc073;
-    border: none;
-}
+
 ul {
     padding-top: 5%;
 }
@@ -154,17 +150,25 @@ ul {
 
  h1 {
     text-align: center;
+    color: #e6188e !important;
     
     padding: 3% 10% 3% 10%;
    
  }
 
+ 
+ 
+ 
  @media screen and (max-width: 480px) {
     .art-grid, .blurb-container, .project-info {
         display: block;
     }
     .blurb-container img {
         width: 100%;
+    }
+
+    .icon {
+        display: none;
     }
   }
 
